@@ -1,0 +1,43 @@
+.form-contents {
+  text-align: center;
+}
+
+.answers {
+  font-size: 24px;
+}
+
+.degrees {
+  font-size: 60px;
+}
+
+.answers p {
+  font-weight: bold;
+}
+
+.answers .min {
+  align-self: flex-start;
+}
+
+.answers .max {
+  align-self: flex-end;
+}
+
+.display-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin-top: 2cm;
+  width: 45%;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#root {
+  margin: 0 auto;
+}

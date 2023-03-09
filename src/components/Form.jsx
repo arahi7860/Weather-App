@@ -7,11 +7,11 @@ export default function Form() {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
 
+  const url = `https://api.openweathermap.org/data/2.5/weather?zip=${zip}&appid=${API_KEY}`;
+
   async function handleSubmit(e) {
     e.preventDefault();
-    let res = await fetch(
-      `http://api.openweathermap.org/data/2.5/weather?zip=${zip}&appid=${API_KEY}`
-    );
+    let res = await fetch(url);
     res = await res.json();
     if (res.cod !== 200) {
       setError(res.message);

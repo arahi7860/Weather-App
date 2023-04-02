@@ -30,7 +30,7 @@ export default function Form() {
 
   return (
     <div className="form-contents">
-      <h2>Weather Today</h2>
+      <h2 className="weather">Weather Today</h2>
       <form onSubmit={handleSubmit}>
         <input
           type="text"

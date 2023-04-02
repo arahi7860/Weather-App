@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.weather {
+  color: whitesmoke;
+  font-size: 32px;
+}
+
 .answers {
   font-size: 24px;
 }
@@ -26,10 +31,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid black;
   margin-top: 2cm;
   width: 45%;
+  background-color: #BCD4DE;
 }
+
 
 .container {
   width: 100vw;

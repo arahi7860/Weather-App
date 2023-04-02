@@ -49,3 +49,53 @@
 }
 
 /* Doublecheck */
+.form-contents {
+  text-align: center;
+}
+
+.weather {
+  color: whitesmoke;
+  font-size: 32px;
+}
+
+.answers {
+  font-size: 24px;
+}
+
+.degrees {
+  font-size: 60px;
+}
+
+.answers p {
+  font-weight: bold;
+}
+
+.answers .min {
+  align-self: flex-start;
+}
+
+.answers .max {
+  align-self: flex-end;
+}
+
+.display-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2cm;
+  width: 45%;
+  background-color: #BCD4DE;
+}
+
+
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#root {
+  margin: 0 auto;
+}
+

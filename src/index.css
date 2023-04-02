@@ -14,3 +14,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@media (max-width: 375px) {
+  body {
+    font-size: 14px;
+    background-image: url("/src/images/day.jpg");
+  }
+  .display-wrapper {
+    width: 80% !important;
+  }  
+}
+
+
+
